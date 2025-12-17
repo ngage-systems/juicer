@@ -52,6 +52,7 @@ This is a first-draft assembly flow based on the photo set. If anything in your 
   - Ensure the clamp tab (labeled in image) is lifted to its highest position.
   - Insert one end of tubing fully into bottle.
   - Route tubing into pump as shown in image, ensuring it runs over the rollers inside the channel and through the spring-loaded U-channels on the entry and exit.
+  - Lower the clamp tab.
   - By default, the pump will move liquid from right to left. This can be changed in the settings:
 
     `{"set":{"direction":"right"}}` (to pump from left -> right)
