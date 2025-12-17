@@ -1,4 +1,4 @@
-# Assembly guide (Juicer)
+# Juicer kit assembly guide
 
 <img src="images/assembled.png" alt="Assembled juicer" width="40%">
 
