@@ -1,6 +1,6 @@
 # Assembly guide (Juicer)
 
-![Assembled juicer](images/assembled.png)
+<img src="images/assembled.png" alt="Assembled juicer" width="50%">
 
 This is a first-draft assembly flow based on the photo set. If anything in your kit differs (pump model, fittings, mounting hardware, board revision), we can tweak the steps.
 
@@ -9,13 +9,13 @@ This is a first-draft assembly flow based on the photo set. If anything in your 
 
 ## Step 1 — Confirm the kit contents
 
-![Juicer kit contents](images/juicer_kit.png)
+<img src="images/juicer_kit.png" alt="Juicer kit contents" width="50%">
 
 - **Identify**: pump assembly, smart bottle holder, bottle, 24V power supply, USB cable, TRRS cable, tubing, mounting bracket, screws, screwdriver.
 
 ## Step 2 — Choose a mounting option and mechanically install
 
-![Mounting options](images/mounting_options.png)
+<img src="images/mounting_options.png" alt="Mounting options" width="50%">
 
 - **Pick an orientation**:
   - The bracket is designed with flexibility in mind, allowing mounting in several orientations.
@@ -31,7 +31,7 @@ This is a first-draft assembly flow based on the photo set. If anything in your 
 
 ## Step 3 — Wiring
 
-![Wiring](images/wiring.png)
+<img src="images/wiring.png" alt="Wiring" width="50%">
 
 - Plug the **24 VDC power supply** into the pump assembly and wall power, using the routing holes in the mounting bracket to manage wires and reduce inadvertent removal.
 - Plug the **TRRS cable** into both the pump assembly and smart bottle holder.
