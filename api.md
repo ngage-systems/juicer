@@ -108,6 +108,7 @@ Request fields in a `get` array; the response includes those keys:
 - `{"get": ["reward_mls"]}` → `{"reward_mls": <float>}`
 - `{"get": ["reward_number"]}` → `{"reward_number": <int>}`
 - `{"get": ["direction"]}` → `{"direction": "left"|"right"}`
+- `{"get": ["pump_state"]}` → `{"pump_state": "idle"|"purge"|"manual"|"serial_reward"|"calibration"}`
 - `{"get": ["juice_level"]}` → `{"juice_level": ">50mLs"|"<50mLs"}`
 - `{"get": ["reward_overlap_policy"]}` → `{"reward_overlap_policy": "replace"|"append"|"reject"}`
 - Unknown keys (e.g., `{"get": ["foo"]}`) return `{"foo": "Unknown parameter"}`
