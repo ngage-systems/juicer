@@ -19,6 +19,16 @@ Precise USB-controlled fluid reward dispenser for behavioral experiments. Built 
 ## Python setup (recommended)
 These scripts require **Python 3.10+** and **pyserial**.
 
+### Python environment note (beginners)
+If your system Python won’t let you install packages globally (common on Debian/Ubuntu with “externally managed environment” errors), use a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -U pip
+python -m pip install -e .
+```
+
 From the repo root:
 
 ```bash
