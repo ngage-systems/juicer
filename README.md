@@ -29,10 +29,10 @@ python -m pip install -U pip
 python -m pip install -e .
 ```
 
-From the repo root:
+If you already manage your own environment (conda/venv/etc), just run from the repo root:
 
 ```bash
-python3 -m pip install -e .
+python -m pip install -e .
 ```
 
 Then run either:
@@ -95,11 +95,3 @@ Notes:
 ## Notes
 - Device enumerates as a USB serial port (e.g., `/dev/ttyACM0` on Linux, `COMx` on Windows).
 - Responses are JSON per request; see `api.md` for expected shapes.
-
-
-
-
-
-
-
-
