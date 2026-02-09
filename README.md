@@ -78,6 +78,9 @@ j.reward(0.5, "reward_mls", "reward_number", "juice_level")
 j.close()
 ```
 
+- **Waiting for completion**: if you request `notify` with a reward, the device emits a second JSON line when the pump stops.
+  - Use `reward_with_notify(...)` to get both responses, or call `read(timeout_s)` after `reward(..., "notify")`.
+
 ## Firmware compile + upload (Debian, interactive)
 This repo includes an interactive helper that can install the full toolchain (user-local), patch the ESP32 core so the device enumerates as **`juicer3`**, pull the latest `main`, compile (with caching), and upload.
 
@@ -96,4 +99,5 @@ Notes:
 ## Notes
 - Device enumerates as a USB serial port (e.g., `/dev/ttyACM0` on Linux, `COMx` on Windows).
 - Responses are JSON per request; see `api.md` for expected shapes.
-
+- For juicers with the TTL BNC jack, the input buffer treats 1.9–12 VDC as logic "high".
+- Commands must be newline-terminated. If the newline is omitted, the device waits until its 1-second serial timeout before responding.
